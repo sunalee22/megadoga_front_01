@@ -1,0 +1,22 @@
+@mixin text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: normal;
+}
+
+@mixin clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@mixin scroll-hide {
+    &::-webkit-scrollbar { /* Chrome, Safari and Opera */
+        display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    overflow: auto;
+    overflow-x: -moz-scrollbars-none; /* for FireFox */
+    scrollbar-width: none; /* for FireFox 64 */
+}

@@ -1,0 +1,34 @@
+/* =LAYOUT
+----------------------------------------- */
+$inner-wrap : 1280px;
+$container-padding : 24px;
+$container-padding-mobile : 10px;
+
+/* =COLOR
+----------------------------------------- */
+$white : #fff;
+$black : #111117;
+
+// GRAY SCALE
+$gray-100 : #F9FAFD;
+$gray-150 : #F4F6FA;
+$gray-200 : #EEF0F6;
+$gray-300 : #DEE2EB;
+$gray-400 : #BDC4D6;
+$gray-500 : #727686; //#788093
+$gray-600 : #575C6A;
+$gray-700 : #3E424E;
+$gray-800 : #343741;
+$gray-900 : #24262E;
+$gray-1000 : #171718;
+
+// BRAND SCALE
+$brand-100 : hsl(224, 85%, 95%);
+$brand-200 : hsl(223, 84%, 85%);
+$brand-300 : hsl(223, 84%, 75%);
+$brand-400 : hsl(223, 84%, 65%);
+$brand-500 : hsl(223, 88%, 59%); // Primary Brand Color, hex:#3B6FF2
+$brand-600 : hsl(223, 84%, 50%);
+$brand-700 : hsl(223, 84%, 40%);
+$brand-800 : hsl(223, 84%, 30%);
+$brand-900 : hsl(223, 84%, 20%);
